@@ -1,0 +1,50 @@
+# Cursor Rules for Saga Group Construction Landing Page
+
+# Project Information
+project_name: "Saga Group Construction"
+project_type: "Landing Page"
+framework: "React"
+styling: "Mantine UI"
+routing: "React Router"
+
+# File Structure Rules
+component_directory: "src/components"
+page_directory: "src/pages"
+asset_directory: "src/assets"
+
+# Component Conventions
+component_extension: ".jsx"
+layout_components: ["Layout", "Header", "Footer", "Navbar", "Sidebar"]
+ui_components: ["Button", "Card", "Hero", "ContactForm", "ProjectsGrid", "Testimonial", "ServiceCard"]
+construction_specific_components: ["ProjectGallery", "ServiceList", "TeamMembers", "EstimateCalculator", "ProcessTimeline"]
+
+# Page Conventions
+page_extension: ".jsx"
+pages: ["Home", "About", "Services", "Projects", "Contact"]
+
+# Style Conventions
+use_mantine_hooks: true
+theme_colors:
+  primary: "#e67e22" # Construction orange
+  secondary: "#2c3e50" # Dark blue
+  accent: "#f1c40f" # Yellow
+  background: "#ecf0f1" # Light gray
+  text: "#2c3e50" # Dark blue
+  
+# Content Guidelines
+construction_services: ["Commercial Construction", "Residential Construction", "Renovation", "Project Management", "Design-Build", "Interior Design", "Green Building"]
+company_values: ["Quality", "Safety", "Integrity", "Innovation", "Sustainability", "Client Satisfaction"]
+
+# Content Management
+content_file: "content.json"
+content_management_notes: "The content.json file stores all website content to allow end users to update the website content directly without touching code."
+
+# SEO Guidelines
+keywords: ["construction company", "building contractor", "commercial construction", "residential construction", "saga group", "quality construction", "construction services"]
+meta_description: "Saga Group is a premier construction company offering high-quality commercial and residential construction services with a focus on innovation and sustainability."
+
+# Development Rules
+vite_config: true
+mantine_config: true
+router_config: true
+use_typescript: false 

@@ -1,0 +1,55 @@
+{
+    "title": "Saga Group",
+    "description": "Saga Group is a company",
+    "author": "Saga Group",
+    "copyright": "Saga Group",
+    "pages": {
+        "home": {
+            "title": "Home",
+            "description": "Home page",
+            "content": "Home page content"
+        },
+        "about": {
+            "title": "About",
+            "description": "About page",
+            "content": "About page content"
+        },
+        "our-expertise": {
+            "title": "Our Expertise",
+            "description": "Our Expertise page",
+            "content": "Our Expertise page content"
+        },
+        "projects": {
+            "title": "Projects",
+            "description": "Projects page",
+            "content": "Projects page content",
+            "projects": {
+                "ongoing": [
+                    {
+                        "title": "Project 1",
+                        "description": "Project 1 description",
+                        "content": "Project 1 content"
+                    }
+                ],
+                "completed": [
+                    {
+                        "title": "Double Tree by Hilton",
+                        "description": "2022 - Putrajaya",
+                        "content": "Project 2 content",
+                        "images": [
+                            "double-tree.png"
+                        ]
+                    },
+                    {
+                        "title": "Project 3",
+                        "description": "Project 3 description",
+                        "content": "Project 3 content",
+                        "images": [
+                            "double-tree.png"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
